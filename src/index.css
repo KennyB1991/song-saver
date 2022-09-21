@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.song-list {
+  width: 100%;
+}
+
+.song-list .song-header {
+  font-size: 20px;
+  background: #f96;
+  color: white;
+}
+
+th,
+td {
+  width: 20%;
+  text-align: center;
+}
+
+th {
+  height: 50px;
+}
+
+td {
+  height: 30px;
+}
+
+.song-list .song-body {
+  font-size: 16px;
+  font-family: Calibri;
+}
+
+.song-body tr:nth-child(even) {
+  background: #eaf2cd;
+}
+
+.song-body tr:nth-child(odd) {
+  background: #dbdbd0;
+}
+
+.song-form {
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.song-form-input {
+  margin-right: 5px;
+  width: 20%;
+  height: 20px;
+  align-self: center;
+}
+
+.song-form-button {
+  margin-left: 15px;
+  width: 100px;
+  height: 35px;
+  border-style: none;
+  background: #f96;
+  color: white;
+  font-weight: bold;
+}
